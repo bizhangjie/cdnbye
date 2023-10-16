@@ -1,11 +1,11 @@
 {
   "version": 2,
   "functions": {
-    "api/index.php": {
+    "m3u8.php": {
       "runtime": "vercel-php@0.6.0"
     }
   },
   "routes": [
-    { "src": "/(.*)", "dest": "api/index.php" }
+    { "src": "/(.*)", "dest": "m3u8.php" }
   ]
 }
